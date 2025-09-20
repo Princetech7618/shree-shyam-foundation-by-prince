@@ -45,7 +45,7 @@ const NewsSection = () => {
 <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-6 sm:gap-8">
   {/* Image 1 */}
   <div className="text-center">
-    <img src="/event1.jpg" alt="Image 1" className="w-full h-auto object-cover rounded-lg shadow" />
+    <img src="/ee1.jpg" alt="Image 1" className="w-full h-auto object-cover rounded-lg shadow" />
     <div className="mt-2 flex space-y-1 bg-red-900 justify-center gap-4">
       <a href="tel:+919999041971" className="text-white font-bold block">+91 9999041971,</a>
       <a href="tel:+918178069222" className="text-white block font-bold">+91 8178069222</a>
@@ -54,7 +54,7 @@ const NewsSection = () => {
 
   {/* Image 2 */}
   <div className="text-center">
-    <img src="/event2.jpg" alt="Image 2" className="w-full h-auto object-cover rounded-lg shadow" />
+    <img src="/ee2.jpg" alt="Image 2" className="w-full h-auto object-cover rounded-lg shadow" />
     <div className="mt-2 flex space-y-1 bg-red-900 justify-center gap-4">
       <a href="tel:+919999041971" className="text-white font-bold block">+91 9999041971,</a>
       <a href="tel:+918178069222" className="text-white block font-bold">+91 8178069222</a>
@@ -63,7 +63,7 @@ const NewsSection = () => {
 
   {/* Image 3 */}
   <div className="text-center">
-    <img src="/event3.jpg" alt="Image 3" className="w-full h-auto object-cover rounded-lg shadow" />
+    <img src="/ee3.jpg" alt="Image 3" className="w-full h-auto object-cover rounded-lg shadow" />
     <div className="mt-2 flex bg-red-900 space-y-1 justify-center gap-4">
       <a href="tel:+919999041971" className="text-white font-bold block">+91 9999041971,</a>
       <a href="tel:+918178069222" className="text-white block font-bold">+91 8178069222</a>
