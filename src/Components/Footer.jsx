@@ -7,6 +7,7 @@ import {
   FaLocationArrow,
   FaPhoneAlt,
   FaEnvelope,
+  FaYoutube,
   FaAngleDoubleRight
 } from "react-icons/fa";
 import { Link } from 'react-router-dom';
@@ -105,6 +106,14 @@ const Footer = () => {
                 className="bg-red-700 text-white p-3 rounded-full hover:scale-105 transition"
               >
                 <FaInstagram />
+              </a>
+              <a
+                href="https://www.youtube.com/@khatushyam__foundation"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-red-700 text-white p-3 rounded-full hover:scale-105 transition"
+              >
+                <FaYoutube />
               </a>
             </div>
           </div>

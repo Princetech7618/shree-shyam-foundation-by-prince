@@ -7,6 +7,7 @@ import {
   FaEnvelope,
   FaFacebookF,
   FaInstagram,
+  FaYoutube,
   FaBars,
   FaArrowRight,
   FaTimes,
@@ -45,6 +46,9 @@ export default function Header() {
         </a>
         <a href="https://wa.me/919999041971" target="_blank" rel="noopener noreferrer">
           <FaWhatsapp className="hover:text-green-500 cursor-pointer" />
+        </a>
+        <a href="https://www.youtube.com/@khatushyam__foundation" target="_blank" rel="noopener noreferrer">
+          <FaYoutube className="hover:text-pink-600 cursor-pointer" />
         </a>
       </div>
     </div>

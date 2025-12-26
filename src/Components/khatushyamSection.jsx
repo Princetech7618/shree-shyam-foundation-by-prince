@@ -13,7 +13,7 @@ const helpItems = [
   {
     title: "Shree Shyam Foundation",
     image:
-      "https://wallpaperbat.com/img/1439890-khatu-shyam-packers-and-movers-in-alawalpur-palwal-transporters-in-palwal.jpg",
+      "https://www.craftoapp.com/_next/image/?url=https%3A%2F%2Fmedia.crafto.app%2Fhome%2F900x900%2Fc8c0d924-ee72-4d57-bbe5-ace0f59d8148%3Fdimension%3D900x900%26type%3DDevotional&w=3840&q=60",
     description:
       "Khatu Shyam Ji, also known as Barbarika, is a revered deity worshipped for his power, devotion, and promise to protect his devotees. The temple in Khatu.",
     link: "/about" // Unique link for this card
