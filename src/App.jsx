@@ -12,7 +12,7 @@ import StatsSection from './Components/StatsSection'
 import NewsSection from './Components/busSection'
 import Footer from './Components/Footer'
 import About from './Components/About'
-import Darshan from './Components/Darshan'
+import SheatBooking from './Components/SheatBooking.jsx'
 import Temple from './Components/Temple'
 import Gallery from './Components/Gallery'
 import TourPackage from './Components/TourPackage'
@@ -46,7 +46,7 @@ function App() {
         {/* Other Routes */}
         <Route path="/donate" element={<Donate />} />
         <Route path="/about" element={<About />} />
-        <Route path="/darshan" element={<Darshan />} />
+        <Route path="/SheatBooking" element={<SheatBooking />} />
         <Route path="/temple" element={<Temple />} />
         <Route path="/gallery" element={<Gallery />} />
          <Route path="/TourPackage" element={<TourPackage />} />

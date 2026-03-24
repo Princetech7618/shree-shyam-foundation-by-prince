@@ -21,34 +21,42 @@ export default function Header() {
       {/* Top Bar */}
 <div className="flex flex-col md:flex-row justify-between items-center bg-pink-200 px-2 md:px-6 py-2 text-sm text-black">
   {/* Phone + Email */}
-  <div className="flex flex-col md:flex-row items-center gap-2 md:gap-6 w-full md:w-auto">
+  <div className="flex flex-col md:flex-row items-center gap-2 md:gap-20 w-full md:w-auto">
     {/* Phone Numbers */}
-    <div className="flex items-center gap-2 flex-wrap justify-center">
-      <span className="flex flex-wrap text-[9px] lg:text-lg gap-x-[2px] lg:gap-x-2">
-        <FaPhone />
-        <a href="tel:+919999041971">+91 99990 41971</a>,
-        <a href="tel:+918178069222">+8178069222</a>,
-        <a href="tel:+919911210174">+9999041974</a>,
-        <a href="tel:+919911210174">+91 99112 10174</a>
+    <div className="flex items-center   justify-center">
+      <span className="flex flex-wrap text-[9px] lg:text-lg gap-x-[2px] lg:gap-x-3">
+ <FaPhone className="text-blue-500 hover:text-blue-600" />
+
+        <a href="tel:+919990419733">+91 9990419733</a>
+
+                <FaPhone className="text-blue-500 hover:text-blue-600" />
+        <a href="tel:+919999041971">+91 99990 41971</a>
+               
+
+                <FaPhone className="text-blue-500 hover:text-blue-600" />
+
+        <a href="tel:+919911210174">+9999041974</a>
+        {/* <a href="tel:+919911210174">+91 99112 10174</a> */}
       </span>
     </div>
 
     {/* Email + Socials */}
     <div className="flex justify-between items-center w-full md:w-auto flex-wrap gap-2 md:gap-6">
       <div className="flex items-center gap-2 text-sm lg:text-lg">
-        <FaEnvelope />
-        <a href="mailto:yadav.raj4580@gmail.com">yadav.raj4580@gmail.com</a>
+        <FaEnvelope className="text-blue-500 hover:text-blue-600" />
+        <a href="mailto:shreeshyamparivaarfoundation@gmail.com">shreeshyamparivaarfoundation@gmail.com</a>
       </div>
       <div className="flex gap-4 text-sm lg:text-lg md:mt-0 md:absolute md:right-6">
-        <a href="https://www.facebook.com/profile.php?id=61575884746727" target="_blank" rel="noopener noreferrer"><FaFacebookF className="hover:text-blue-600 cursor-pointer" /></a>
+        <a href="https://www.facebook.com/profile.php?id=61575884746727" target="_blank" rel="noopener noreferrer">
+        <FaFacebookF className="hover:text-blue-600 text-blue-500 cursor-pointer" /></a>
         <a href="https://www.instagram.com/khatushyam__foundation/" target="_blank" rel="noopener noreferrer">
-          <FaInstagram className="hover:text-pink-600 cursor-pointer" />
+          <FaInstagram className="hover:text-pink-600 text-pink-500 cursor-pointer" />
         </a>
         <a href="https://wa.me/919999041971" target="_blank" rel="noopener noreferrer">
-          <FaWhatsapp className="hover:text-green-500 cursor-pointer" />
+          <FaWhatsapp className="hover:text-green-600 text-green-500 cursor-pointer" />
         </a>
-        <a href="https://www.youtube.com/@khatushyam__foundation" target="_blank" rel="noopener noreferrer">
-          <FaYoutube className="hover:text-pink-600 cursor-pointer" />
+        <a href="https://www.youtube.com/@%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A5%80shyamparivar" target="_blank" rel="noopener noreferrer">
+          <FaYoutube className="hover:text-red-600 text-red-500 cursor-pointer" />
         </a>
       </div>
     </div>
@@ -76,14 +84,14 @@ export default function Header() {
           </Link>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex items-center gap-6 font-medium">
-            <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
-            <Link to="/darshan">Darshan</Link>
-            <Link to="/temple">Temple</Link>
-            <Link to="/gallery">Gallery</Link>
-            <Link to="/tourpackage">TourPackage</Link>
-            <Link to="/contact">Contact</Link>
+          <div className="hidden md:flex items-center gap-6 font-medium ">
+            <Link className="hover:underline  hover:text-pink-200" to="/">Home</Link>
+            <Link className="hover:underline  hover:text-pink-200" to="/about">About</Link>
+            <Link className="hover:underline  hover:text-pink-200" to="/SheatBooking">Sheat Booking </Link>
+            <Link className="hover:underline  hover:text-pink-200" to="/temple">Temple</Link>
+            <Link className="hover:underline  hover:text-pink-200" to="/gallery">Gallery</Link>
+            <Link className="hover:underline  hover:text-pink-200" to="/tourpackage">TourPackage</Link>
+            <Link className="hover:underline  hover:text-pink-200" to="/contact">Contact</Link>
           </div>
 
           {/* Donate Now Button (Desktop) */}
@@ -107,15 +115,19 @@ export default function Header() {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden mt-4 space-y-2 text-sm font-medium">
-            <Link to="/" onClick={() => setIsMenuOpen(false)} className="block">Home</Link>
-            <Link to="/donate" onClick={() => setIsMenuOpen(false)} className="block">Donate</Link>
-            <Link to="/about" onClick={() => setIsMenuOpen(false)} className="block">About</Link>
-            <Link to="/darshan" onClick={() => setIsMenuOpen(false)} className="block">Darshan</Link>
-            <Link to="/temple" onClick={() => setIsMenuOpen(false)} className="block">Temple</Link>
-            <Link to="/gallery" onClick={() => setIsMenuOpen(false)} className="block">Gallery</Link>
-            <Link to="/tourpackage" onClick={() => setIsMenuOpen(false)} className="block">TourPackage</Link>
-            <Link to="/contact" onClick={() => setIsMenuOpen(false)} className="block">Contact</Link>
+<div
+  className={` h-full left-0   bg-gradient-to-r from-yellow-500 via-red-500 to-red-300 text-white z-50 transform transition-transform duration-300 ease-in-out ${
+    isMenuOpen ? "translate-x-0" : "-translate-x-full"
+  }`}
+  onClick={() => setIsMenuOpen(false)}
+>            <Link to="/" onClick={() => setIsMenuOpen(false)} className="block hover:underline  hover:text-pink-200">Home</Link>
+            <Link to="/donate" onClick={() => setIsMenuOpen(false)} className="block hover:underline  hover:text-pink-200">Donate</Link>
+            <Link to="/about" onClick={() => setIsMenuOpen(false)} className="block hover:underline  hover:text-pink-200">About</Link>
+            <Link to="/darshan" onClick={() => setIsMenuOpen(false)} className="block hover:underline  hover:text-pink-200">Darshan</Link>
+            <Link to="/temple" onClick={() => setIsMenuOpen(false)} className="block hover:underline  hover:text-pink-200">Temple</Link>
+            <Link to="/gallery" onClick={() => setIsMenuOpen(false)} className="block hover:underline  hover:text-pink-200">Gallery</Link>
+            <Link to="/tourpackage" onClick={() => setIsMenuOpen(false)} className="block hover:underline  hover:text-pink-200">TourPackage</Link>
+            <Link to="/contact" onClick={() => setIsMenuOpen(false)} className="block hover:underline hover:text-pink-200">Contact</Link>
 
             <Link
               to="/donate"
