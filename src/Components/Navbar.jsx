@@ -33,10 +33,7 @@ export default function Header() {
         <a href="tel:+919999041971">+91 99990 41971</a>
                
 
-                <FaPhone className="text-blue-500 hover:text-blue-600" />
-
-        <a href="tel:+919911210174">+9999041974</a>
-        {/* <a href="tel:+919911210174">+91 99112 10174</a> */}
+             
       </span>
     </div>
 
@@ -87,7 +84,7 @@ export default function Header() {
           <div className="hidden md:flex items-center gap-6 font-medium ">
             <Link className="hover:underline  hover:text-pink-200" to="/">Home</Link>
             <Link className="hover:underline  hover:text-pink-200" to="/about">About</Link>
-            <Link className="hover:underline  hover:text-pink-200" to="/SheatBooking">Sheat Booking </Link>
+            <Link className="hover:underline  hover:text-pink-200" to="/SeatBooking">Seat Booking </Link>
             <Link className="hover:underline  hover:text-pink-200" to="/temple">Temple</Link>
             <Link className="hover:underline  hover:text-pink-200" to="/gallery">Gallery</Link>
             <Link className="hover:underline  hover:text-pink-200" to="/tourpackage">TourPackage</Link>

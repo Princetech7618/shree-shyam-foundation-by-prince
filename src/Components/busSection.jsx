@@ -95,7 +95,7 @@ const NewsSection = () => {
       title: "Grand Gala",
       date: "MAR 24",
       c1: "+91 9999041971",
-      c2: "+91 9999041974",
+      c2: "+91 9990419733",
       offset: "",
     },
     {
@@ -104,7 +104,7 @@ const NewsSection = () => {
       title: "Live Night",
       date: "APR 12",
       c1: "+91 9999041971",
-      c2: "+91 9999041974",
+      c2: "+91 9990419733",
       offset: "",
     },
     {
@@ -113,7 +113,7 @@ const NewsSection = () => {
       title: "Elite Meet",
       date: "MAY 05",
       c1: "+91 9999041971",
-      c2: "+91 9999041974",
+      c2: "+91 9990419733",
       offset: "",
     },
     {
@@ -122,7 +122,7 @@ const NewsSection = () => {
       title: "Elite Meet",
       date: "MAY 05",
       c1: "+91 9999041971",
-      c2: "+91 9999041974",
+      c2: "+91 9990419733",
       offset: "",
     },
        {
@@ -131,7 +131,7 @@ const NewsSection = () => {
       title: "Elite Meet",
       date: "MAY 05",
       c1: "+91 9999041971",
-      c2: "+91 9999041974",
+      c2: "+91 9990419733",
       offset: "",
     },
   ];

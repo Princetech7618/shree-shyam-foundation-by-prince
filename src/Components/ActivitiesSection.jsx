@@ -206,7 +206,6 @@ export default function ActivitiesSection() {
                                 { label: "Phone 1", num: "+91  9990419733" },
 
                 { label: "Phone 2", num: "+91 9999041971" },
-                { label: "Phone 3", num: "+91 9999041974" }
               ].map((phone, idx) => (
                 <a
                   key={idx}
