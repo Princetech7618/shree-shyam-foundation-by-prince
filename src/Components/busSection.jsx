@@ -89,15 +89,16 @@ import { Phone, ArrowRight, ArrowUpRight } from "lucide-react";
 import {FaCalendarCheck } from 'react-icons/fa';
 const NewsSection = () => {
   const events = [
-    {
+          {
       id: "01",
-      img: "/1.jpeg",
-      title: "Grand Gala",
-      date: "MAR 24",
+      img: "/5.jpeg",
+      title: "Elite Meet",
+      date: "MAY 05",
       c1: "+91 9999041971",
       c2: "+91 9990419733",
       offset: "",
     },
+ 
     {
       id: "02",
       img: "/2.jpeg",
@@ -116,24 +117,8 @@ const NewsSection = () => {
       c2: "+91 9990419733",
       offset: "",
     },
-    {
-      id: "04",
-      img: "/4.jpeg",
-      title: "Elite Meet",
-      date: "MAY 05",
-      c1: "+91 9999041971",
-      c2: "+91 9990419733",
-      offset: "",
-    },
-       {
-      id: "05",
-      img: "/5.jpeg",
-      title: "Elite Meet",
-      date: "MAY 05",
-      c1: "+91 9999041971",
-      c2: "+91 9990419733",
-      offset: "",
-    },
+
+ 
   ];
 
   return (
@@ -157,7 +142,7 @@ const NewsSection = () => {
         </div>
 
         {/* Grid */}
-<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2 md:gap-3 lg:gap-4">          {events.map((event) => (
+<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-2 md:gap-3 lg:gap-4 px-10">          {events.map((event) => (
             <div
               key={event.id}
               className={`group relative flex flex-col ${event.offset} transition-all duration-700`}

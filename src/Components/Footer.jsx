@@ -287,7 +287,7 @@ Khatu Shyam Baba Seva Foundation is making significant contribution towards prov
                 <div className="flex gap-3">
                   {[
                     { icon: <FaFacebookF />, url: "https://www.facebook.com/profile.php?id=61575884746727" },
-                    { icon: <FaWhatsapp />, url: "https://wa.me/919999041971" },
+                    { icon: <FaWhatsapp />, url: "https://wa.me/919990419733" },
                     { icon: <FaInstagram />, url: "https://www.instagram.com/khatushyam__foundation" },
                     { icon: <FaYoutube />, url: "https://www.youtube.com/@%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A5%80shyamparivar" }
                   ].map((social, i) => (
