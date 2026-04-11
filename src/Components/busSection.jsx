@@ -87,20 +87,13 @@
 import React from "react";
 import { Phone, ArrowRight, ArrowUpRight } from "lucide-react";
 import {FaCalendarCheck } from 'react-icons/fa';
+import NewPackage from "../Components/NewPackege";
 const NewsSection = () => {
   const events = [
-          {
-      id: "01",
-      img: "/5.jpeg",
-      title: "Elite Meet",
-      date: "MAY 05",
-      c1: "+91 9999041971",
-      c2: "+91 9990419733",
-      offset: "",
-    },
+     
  
     {
-      id: "02",
+      id: "01",
       img: "/2.jpeg",
       title: "Live Night",
       date: "APR 12",
@@ -108,17 +101,9 @@ const NewsSection = () => {
       c2: "+91 9990419733",
       offset: "",
     },
-    {
-      id: "03",
-      img: "/3.jpeg",
-      title: "Elite Meet",
-      date: "MAY 05",
-      c1: "+91 9999041971",
-      c2: "+91 9990419733",
-      offset: "",
-    },
+    
      {
-      id: "04",
+      id: "02",
       img: "/new2.jpeg",
       title: "Elite Meet",
       date: "MAY 05",
@@ -127,7 +112,7 @@ const NewsSection = () => {
       offset: "",
     },
  {
-      id: "05",
+      id: "03",
       img: "/new1.jpeg",
       title: "Elite Meet",
       date: "MAY 05",
@@ -135,6 +120,7 @@ const NewsSection = () => {
       c2: "+91 9990419733",
       offset: "",
     },
+   
  
   ];
 
@@ -159,7 +145,7 @@ const NewsSection = () => {
         </div>
 
         {/* Grid */}
-<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-5 gap-2 md:gap-3 lg:gap-4 px-10">          {events.map((event) => (
+<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-2 md:gap-3 lg:gap-4 px-10">          {events.map((event) => (
             <div
               key={event.id}
               className={`group relative flex flex-col ${event.offset} transition-all duration-700`}
@@ -175,60 +161,11 @@ const NewsSection = () => {
                 <div className="absolute inset-0 bg-red-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               </div>
 
-              {/* Content */}
-              <div className="mt-6 px-1">
-                <div className="space-y-3">
-                  
-                  {/* Contact 1 */}
-                  <a
-                    href={`tel:${event.c1}`}
-                    className="flex items-center justify-between group/btn py-3 border-b border-gray-200 hover:border-red-600 transition-all"
-                  >
-                    <span className="text-gray-500 group-hover/btn:text-gray-900 font-semibold text-sm transition-colors">
-                      Inquiry One
-                    </span>
-
-                    <div className="flex items-center gap-2">
-                      <span className="text-xs font-bold text-gray-400 group-hover/btn:text-red-600 transition-colors">
-                        {event.c1}
-                      </span>
-                      <ArrowRight
-                        size={14}
-                        className="text-gray-300 opacity-0 translate-x-[-5px] group-hover/btn:opacity-100 group-hover/btn:translate-x-0 transition-all text-red-600"
-                      />
-                    </div>
-                  </a>
-
-                  {/* Contact 2 */}
-                  <a
-                    href={`tel:${event.c2}`}
-                    className="flex items-center justify-between group/btn py-3 border-b border-gray-200 hover:border-red-600 transition-all"
-                  >
-                    <span className="text-gray-500 group-hover/btn:text-gray-900 font-semibold text-sm">
-                      Inquiry Two
-                    </span>
-
-                    <div className="flex items-center gap-2">
-                      <span className="text-xs font-bold text-gray-400 group-hover/btn:text-red-600 transition-colors">
-                        {event.c2}
-                      </span>
-                      <ArrowUpRight
-                        size={14}
-                        className="text-gray-300 group-hover/btn:text-red-600 transition-colors"
-                      />
-                    </div>
-                  </a>
-                </div>
-              </div>
-
-              {/* ID Background */}
-              <span className="absolute -top-6 -right-2 text-7xl sm:text-8xl font-black text-gray-100 opacity-0 group-hover:opacity-100 transition-all duration-700 -z-10 pointer-events-none">
-                {event.id}
-              </span>
+           
             </div>
           ))}
         </div>
-
+<NewPackage />
         {/* Booking Section */}
         <div className="mt-16 sm:mt-20">
           <div className="bg-gradient-to-r from-[#ff5d5c] via-[#fb4432] to-[#f97319] rounded-2xl sm:rounded-[2rem] p-6 sm:p-8 md:p-12 relative shadow-[0_20px_50px_rgba(220,38,38,0.25)] overflow-hidden">
@@ -256,23 +193,30 @@ const NewsSection = () => {
               </div>
 
               {/* Right CTA */}
-              <a
-                href="tel:9990419733"
+              <div
+            
                 className="group flex items-center gap-4 bg-white px-6 sm:px-8 py-4 sm:py-5 rounded-xl sm:rounded-2xl transition-all hover:scale-[1.03] active:scale-95 shadow-lg"
               >
                 <div className="flex flex-col items-start">
                   <span className="text-[9px] sm:text-[10px] font-semibold text-red-600 uppercase tracking-widest mb-1">
                     For Booking
                   </span>
-                  <span className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900">
+                  <a 
+                  href="tel:+919990419733"
+                  className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900">
                     9990419733
-                  </span>
+                  </a>
+                    <a 
+                    href="tel:+919990204197"
+                    className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900">
+                  9990204197
+                  </a>
                 </div>
 
                 <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-red-50 flex items-center justify-center group-hover:bg-red-600 group-hover:text-white transition-colors">
                   <Phone size={18} />
                 </div>
-              </a>
+              </div>
             </div>
           </div>
         </div>

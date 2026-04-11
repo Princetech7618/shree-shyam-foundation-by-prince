@@ -267,7 +267,9 @@ Khatu Shyam Baba Seva Foundation is making significant contribution towards prov
                   <div className="flex flex-col text-sm font-medium">
                                         <a href="tel:+919990419733" className="hover:text-red-600 transition-colors">+91  9990419733</a>
 
-                    <a href="tel:+919999041971" className="hover:text-red-600 transition-colors">+91 99990 41971</a>
+                    <a href="tel:+919999041971" className="hover:text-red-600 transition-colors">+91 9999041971</a>
+                                        <a href="tel:+919990204197" className="hover:text-red-600 transition-colors">+91 9990204197</a>
+
                   </div>
                 </div>
 

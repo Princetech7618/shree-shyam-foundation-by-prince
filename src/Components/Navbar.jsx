@@ -30,9 +30,10 @@ export default function Header() {
         <a href="tel:+919990419733">+91 9990419733</a>
 
                 <FaPhone className="text-blue-500 hover:text-blue-600" />
-        <a href="tel:+919999041971">+91 99990 41971</a>
+        <a href="tel:+919999041971">+91 9999041971</a>
                
-
+  <FaPhone className="text-blue-500 hover:text-blue-600" />
+        <a href="tel:+919990204197">+91 9990204197</a>
              
       </span>
     </div>
