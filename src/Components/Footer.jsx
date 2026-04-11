@@ -307,14 +307,14 @@ Khatu Shyam Baba Seva Foundation is making significant contribution towards prov
               </div>
   
               
-                          <a
-              href="/donate"
+                          <Link
+              to="/donate"
             
                 className="w-full cursor-pointer bg-red-700 text-white py-3 px-6 rounded-xl font-bold shadow-lg hover:bg-red-800 hover:shadow-xl active:scale-95 transition-all flex items-center justify-center gap-2"
               >
                 <FaPaperPlane className="text-sm" /> Support Our Mission
               
-              </a>
+              </Link>
             </div>
           </div>
 
