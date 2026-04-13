@@ -242,6 +242,7 @@ Khatu Shyam Baba Seva Foundation is making significant contribution towards prov
       { name: "Temple", path: "/temple" },
       { name: "Gallery", path: "/gallery" },
       { name: "Contact", path: "/contact" },
+      {TourPackage: "/tourpackage" },
       { name: "Donate", path: "/donate" },
     ]
     .map((item) => (

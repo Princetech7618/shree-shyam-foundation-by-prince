@@ -85,7 +85,7 @@ export default function Header() {
           <div className="hidden md:flex items-center gap-6 font-medium ">
             <Link className="hover:underline  hover:text-pink-200" to="/">Home</Link>
             <Link className="hover:underline  hover:text-pink-200" to="/about">About</Link>
-            <Link className="hover:underline  hover:text-pink-200" to="/SeatBooking">Seat Booking </Link>
+            <Link className="hover:underline  hover:text-pink-200" to="/seat-booking">Seat Booking </Link>
             <Link className="hover:underline  hover:text-pink-200" to="/temple">Temple</Link>
             <Link className="hover:underline  hover:text-pink-200" to="/gallery">Gallery</Link>
             <Link className="hover:underline  hover:text-pink-200" to="/tourpackage">TourPackage</Link>
@@ -121,7 +121,7 @@ export default function Header() {
 >            <Link to="/" onClick={() => setIsMenuOpen(false)} className="block hover:underline  hover:text-pink-200">Home</Link>
             <Link to="/donate" onClick={() => setIsMenuOpen(false)} className="block hover:underline  hover:text-pink-200">Donate</Link>
             <Link to="/about" onClick={() => setIsMenuOpen(false)} className="block hover:underline  hover:text-pink-200">About</Link>
-            <Link to="/SeatBooking" onClick={() => setIsMenuOpen(false)} className="block hover:underline  hover:text-pink-200">Seat Booking</Link>
+            <Link to="/seat-booking" onClick={() => setIsMenuOpen(false)} className="block hover:underline  hover:text-pink-200">Seat Booking</Link>
             <Link to="/temple" onClick={() => setIsMenuOpen(false)} className="block hover:underline  hover:text-pink-200">Temple</Link>
             <Link to="/gallery" onClick={() => setIsMenuOpen(false)} className="block hover:underline  hover:text-pink-200">Gallery</Link>
             <Link to="/tourpackage" onClick={() => setIsMenuOpen(false)} className="block hover:underline  hover:text-pink-200">TourPackage</Link>

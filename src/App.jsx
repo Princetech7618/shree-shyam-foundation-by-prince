@@ -46,10 +46,10 @@ function App() {
         {/* Other Routes */}
         <Route path="/donate" element={<Donate />} />
         <Route path="/about" element={<About />} />
-        <Route path="/SeatBooking" element={<SeatBooking />} />
+        <Route path="/seat-booking" element={<SeatBooking />} />
         <Route path="/temple" element={<Temple />} />
         <Route path="/gallery" element={<Gallery />} />
-         <Route path="/TourPackage" element={<TourPackage />} />
+         <Route path="/tourpackage" element={<TourPackage />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
