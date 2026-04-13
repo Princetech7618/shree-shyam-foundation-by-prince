@@ -121,7 +121,7 @@ export default function Header() {
 >            <Link to="/" onClick={() => setIsMenuOpen(false)} className="block hover:underline  hover:text-pink-200">Home</Link>
             <Link to="/donate" onClick={() => setIsMenuOpen(false)} className="block hover:underline  hover:text-pink-200">Donate</Link>
             <Link to="/about" onClick={() => setIsMenuOpen(false)} className="block hover:underline  hover:text-pink-200">About</Link>
-            <Link to="/darshan" onClick={() => setIsMenuOpen(false)} className="block hover:underline  hover:text-pink-200">Darshan</Link>
+            <Link to="/SeatBooking" onClick={() => setIsMenuOpen(false)} className="block hover:underline  hover:text-pink-200">Seat Booking</Link>
             <Link to="/temple" onClick={() => setIsMenuOpen(false)} className="block hover:underline  hover:text-pink-200">Temple</Link>
             <Link to="/gallery" onClick={() => setIsMenuOpen(false)} className="block hover:underline  hover:text-pink-200">Gallery</Link>
             <Link to="/tourpackage" onClick={() => setIsMenuOpen(false)} className="block hover:underline  hover:text-pink-200">TourPackage</Link>
