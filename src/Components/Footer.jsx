@@ -235,14 +235,23 @@ Khatu Shyam Baba Seva Foundation is making significant contribution towards prov
             <div>
               <h3 className="text-lg font-bold mb-6 pb-2 border-b-2 border-red-600/20 inline-block">Quick Links</h3>
               <ul className="grid grid-cols-1 gap-3">
-                {["Home", "About", "Darshan", "Temple", "Gallery", "Contact", "Donate"].map((item) => (
-                  <li key={item}>
+                {[
+      { name: "Home", path: "/" },
+      { name: "About", path: "/about" },
+      { name: "Seat Booking", path: "/seat-booking" },
+      { name: "Temple", path: "/temple" },
+      { name: "Gallery", path: "/gallery" },
+      { name: "Contact", path: "/contact" },
+      { name: "Donate", path: "/donate" },
+    ]
+    .map((item) => (
+                  <li key={item.name}>
                     <Link
-                      to={item === "Home" ? "/" : `/${item.toLowerCase()}`}
+                      to={item.path}
                       className="group hover:underline flex items-center text-sm font-semibold hover:text-red-600 transition-colors duration-300"
                     >
                       <FaAngleDoubleRight className="mr-2 text-xs group-hover:translate-x-1 transition-transform" />
-                      {item}
+                      {item.name}
                     </Link>
                   </li>
                 ))}
